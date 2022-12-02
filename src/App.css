@@ -1,0 +1,137 @@
+.contenedorPrincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 520px;
+    min-height: 600px;
+    background: #161a2b;
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+}
+
+h1 {
+    margin: 32px 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 75%;
+    justify-content: center;
+    margin: auto;
+}
+
+.contenedorTareas {
+    color: #fff;
+}
+
+input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #5d0cff;
+    outline: none;
+    width: 320px;
+    background: transparent;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #e2e2e2;
+}
+
+.btn.add {
+    padding: 1rem;
+    border: none;
+    border-radius: 0 0.25rem 0.25rem 0;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+    );
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.btn.add:hover {
+    background: linear-gradient(90deg, rgba(31,0,36,1) 0%, rgba(149,0,255,1) 0%, rgb(80, 1, 226) 86%);
+}
+
+.btnEditar {
+    background: linear-gradient(90deg, rgba(31,0,36,0) 0%, rgba(245,198,0,1) 0%, rgba(255,38,0,1) 100%, rgba(241,255,0,1) 100%);
+    margin-top: 0.1875rem;
+    height: 1.5625rem;
+    width: 4.375rem;
+    border-radius: 3.125rem;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.btnSave {
+    
+    background: linear-gradient(83deg, rgba(31,0,36,0) 0%, rgba(3,221,123,1) 0%, rgba(5,245,0,1) 50%, rgba(2,214,156,1) 100%, rgba(0,194,255,1) 100%, rgba(241,255,0,1) 100%);
+    margin-top: 0.1875rem;
+    height: 1.5625rem;
+    width: 4.375rem;
+    border-radius: 3.125rem;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.btnBorrar {
+    background: linear-gradient(90deg, rgba(31,0,36,0) 0%, rgba(255,0,168,1) 0%, rgba(255,0,0,1) 100%);
+    margin-top: 0.1875rem;
+    height: 1.5625rem;
+    width: 4.375rem;
+    border-radius: 3.125rem;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.contenedorTarea {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.modifyButtonsInput {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttonsModify {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.todoTarea {
+    font-size: 1.25rem;
+}
+
+.spanSubrayado {
+    text-decoration: line-through;
+    opacity: 0.4;
+}
